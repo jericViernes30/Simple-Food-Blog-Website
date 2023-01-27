@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5%;
+}
+
+nav h2{
+    font-size: 30px;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 55px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: burlywood;
+    transition: .1s;
+}
+.content{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    padding-bottom: 10%;
+
+}
+.content .tab1{
+    tab-size: 4;
+}
+
+.content h1{
+    font-size: 70px;
+}
+
+.content .bbq-name{
+    font-size: 55px;
+}
+
+.content .prep{
+    font-size: 20px;
+}
+
+.content .explanation{
+    font-size: 30px;
+    padding: 3% 0;
+    color: #333333;
+}
+
+.content .ing, .ins {
+    padding-top: 3%;
+    text-align: left;
+    position: relative;
+    left: 390px;
+    font-size: 35px;
+}
+
+.content .mar-ing{
+    padding-top: 20px;
+    text-align: left;
+    position: relative;
+    left: 390px;
+    font-size: 25px;
+}
+
+.content .ingredients, .instructions{
+    text-align: left;
+    position: relative;
+    left: 390px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.content .bbq-1, .bbq-2{
+    width: 40%;
+}
+
+
